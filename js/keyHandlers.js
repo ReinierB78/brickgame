@@ -1,5 +1,3 @@
-export class Test {
-	hello() {
-		console.log('hello from key handler')
-	}
+export function theFunction() {
+  return // stuff
 }
