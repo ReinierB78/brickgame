@@ -1,3 +1,7 @@
+import Test from 'keyUpHandlers.js';
+
+hello()
+
 var canvas = document.getElementById("gameCanvas");
 var ctx = canvas.getContext("2d");
 var ballRadius = 10;
@@ -36,7 +40,7 @@ function keyDownHandler(e) {
     else if (e.key == "Left" || e.key == "ArrowLeft") {
         leftPressed = true;
     }
-}
+}  
 
 function keyUpHandler(e) {
     if (e.key == "Right" || e.key == "ArrowRight") {
